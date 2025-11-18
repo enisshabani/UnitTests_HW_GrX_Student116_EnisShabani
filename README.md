@@ -23,8 +23,9 @@ UnitTests_HW_GrX_Student116_EnisShabani/
 │     ├── T03_ContainsBadWords.cpp
 │     ├── T04_PassedExam.h
 │     ├── T04_PassedExam.cpp
-│     └── T05_IsStrongPassword.h
-│           T05_IsStrongPassword.cpp
+│     ├── T05_IsStrongPassword.h
+│     └── T05_IsStrongPassword.cpp
+│
 │
 └── MyFunctionsTests/
       ├── T01_IsValidEmailTest.cpp
@@ -82,7 +83,7 @@ cmake ..
 ```
 4. Ndërto projektin dhe testet:
 ```zsh
-cmake --build 
+cmake --build .
 ```
 5. Ekzekuto testet:
 ```zsh
