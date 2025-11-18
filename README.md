@@ -38,7 +38,7 @@ UnitTests_HW_GrX_Student116_EnisShabani/
 ## ⚙️ Kërkesat teknike
 
 Për të ndërtuar dhe testuar projektin, nevojiten:
-```txt
+```zsh
 C++ Compiler
 AppleClang (Mac)
 MinGW / MSVC (Windows)
@@ -54,11 +54,11 @@ GoogleTest nuk instalohet globalisht — ai vjen si pjesë e projektit.
 
 **1. Klono googletest brenda projektit:**
 
-```txt
+```zsh
 git clone https://github.com/google/googletest.git
 ```
 Pas kesaj do te krijohet folderi googletest
-```txt
+```zsh
 /googletest
 ```
 GoogleTest kompilohet automatikisht nga CMake kur ndërtohet projekti.
@@ -68,25 +68,28 @@ GoogleTest kompilohet automatikisht nga CMake kur ndërtohet projekti.
 ## 🏗️ Build dhe ekzekutimi i testeve (Mac/Linux)
 
 1. Hyr në folderin e projektit:
-
+```zsh
 cd UnitTests_HW_GrX_Student116_EnisShabani
-
+```
 2. Krijo folder build:
-
+```zsh
 mkdir build
 cd build
-
+```
 3. Gjenero projektin me CMake:
-
+```zsh
 cmake ..
-
+```
 4. Ndërto projektin dhe testet:
+```zsh
 cmake --build 
-
+```
 5. Ekzekuto testet:
+```zsh
 ./runTests
-
+```
 6. Rezultati duhet te dal: 
-
+```zsh
 [==========] Running x tests
 [  PASSED  ] All tests passed.
+```
