@@ -9,7 +9,7 @@ Një projekt për funksionet (MyFunctions) dhe një projekt i ndarë për testet
 ---
 
 ## 📁 Struktura e Projektit
-
+```zsh
 UnitTests_HW_GrX_Student116_EnisShabani/
 │── CMakeLists.txt
 │── googletest/               
@@ -32,20 +32,20 @@ UnitTests_HW_GrX_Student116_EnisShabani/
       ├── T03_ContainsBadWordsTest.cpp
       ├── T04_PassedExamTest.cpp
       ├── T05_IsStrongPasswordTest.cpp
-
+```
 --- 
 
 ## ⚙️ Kërkesat teknike
 
 Për të ndërtuar dhe testuar projektin, nevojiten:
-
+```txt
 C++ Compiler
 AppleClang (Mac)
 MinGW / MSVC (Windows)
 CMake ≥ 3.10
 Git
 VS Code ose IDE tjetër
-
+```
 ---
 
 ## 🔧 Instruksionet e instalimit të GoogleTest
