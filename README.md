@@ -2,10 +2,9 @@
 
 **Student:** Enis Shabani
 
-**Mini Projekt: UnitTests - Student116**
+**Mini Projekt: UnitTests**
 
-Ky projekt përmban implementimin e pesë funksioneve të ndryshme në C++ si dhe testet përkatëse të krijuara duke përdorur GoogleTest. Struktura e projektit është plotësisht sipas kërkesave të profesorit:
-Një projekt për funksionet (MyFunctions) dhe një projekt i ndarë për testet (MyFunctionsTests).
+Ky projekt përmban implementimin e pesë funksioneve të ndryshme në C++ si dhe testet përkatëse të krijuara duke përdorur GoogleTest.
 
 ---
 
