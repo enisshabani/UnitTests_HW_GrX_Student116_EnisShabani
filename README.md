@@ -1,4 +1,4 @@
-** UnitTests – C++ Project (GoogleTest) **
+**UnitTests – C++ Project (GoogleTest)**
 
 Student: Enis Shabani
 Mini Projekt: UnitTests - Student116 - EnisShabani
@@ -8,7 +8,7 @@ Një projekt për funksionet (MyFunctions) dhe një projekt i ndarë për testet
 
 --
 
-** 📁 Struktura e Projektit **
+**📁 Struktura e Projektit**
 
 UnitTests_HW_GrX_Student116_EnisShabani/
 │── CMakeLists.txt
@@ -35,7 +35,7 @@ UnitTests_HW_GrX_Student116_EnisShabani/
 
 -- 
 
-** ⚙️ Kërkesat teknike **
+**⚙️ Kërkesat teknike**
 
 Për të ndërtuar dhe testuar projektin, nevojiten:
 
@@ -48,10 +48,10 @@ VS Code ose IDE tjetër
 
 --
 
-** 🔧 Instruksionet e instalimit të GoogleTest **
+**🔧 Instruksionet e instalimit të GoogleTest**
 
 GoogleTest nuk instalohet globalisht — ai vjen si pjesë e projektit.
-* 1. Klono googletest brenda projektit: *
+*1. Klono googletest brenda projektit:*
 
 git clone https://github.com/google/googletest.git
 
@@ -63,28 +63,28 @@ GoogleTest kompilohet automatikisht nga CMake kur ndërtohet projekti.
 
 --
 
-** 🏗️ Build dhe ekzekutimi i testeve (Mac/Linux) **
+**🏗️ Build dhe ekzekutimi i testeve (Mac/Linux)**
 
-1. Hyr në folderin e projektit:
+1.Hyr në folderin e projektit:
 
 cd UnitTests_HW_GrX_Student116_EnisShabani
 
-2. Krijo folder build:
+2.Krijo folder build:
 
 mkdir build
 cd build
 
-3. Gjenero projektin me CMake:
+3.Gjenero projektin me CMake:
 
 cmake ..
 
-4. Ndërto projektin dhe testet:
+4.Ndërto projektin dhe testet:
 cmake --build 
 
-5. Ekzekuto testet:
+5.Ekzekuto testet:
 ./runTests
 
-6. Rezultati duhet te dal: 
+6.Rezultati duhet te dal: 
 
 [==========] Running x tests
 [  PASSED  ] All tests passed.
