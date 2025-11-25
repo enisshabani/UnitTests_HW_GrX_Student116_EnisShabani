@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "../MyFunctions/T02_CalculateShipping.h"
 
-const int N = 121;
+const int N = 116;
 
 TEST(T02_CalculateShipping, NegativeWeight)
 {
