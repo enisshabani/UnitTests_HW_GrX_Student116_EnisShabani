@@ -1,3 +1,4 @@
 #pragma once
+#include <stdexcept>
 
-float CalculateShipping(float weight, float distance);
+double CalculateShipping(double weightKg, bool express, int N);

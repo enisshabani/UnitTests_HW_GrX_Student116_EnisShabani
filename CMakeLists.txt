@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(UnitTests_HW_GrX_Student111_EnisShabani)
+project(UnitTests_HW_Gr2_Student116_EnisShabani)
 
 set(CMAKE_CXX_STANDARD 17)
 

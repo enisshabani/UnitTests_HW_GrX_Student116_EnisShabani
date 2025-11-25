@@ -12,6 +12,7 @@ Ky projekt përmban implementimin e pesë funksioneve të ndryshme në C++ si dh
 ```zsh
 UnitTests_HW_GrX_Student116_EnisShabani/
 │── CMakeLists.txt
+│── build/
 │── googletest/               
 │
 │── MyFunctions/
